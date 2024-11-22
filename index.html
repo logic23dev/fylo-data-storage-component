@@ -18,5 +18,47 @@
     />
     <link rel="stylesheet" href="css/style.css" />
   </head>
-  <body></body>
+  <body>
+    <main>
+      <h1 class="sr-only">Fylo data storage</h1>
+      <div class="wrapper">
+        <div class="fylo">
+          <img src="images/logo.svg" alt="" aria-hidden="true" />
+          <ul class="buttons-list">
+            <li>
+              <button aria-label="Document">
+                <img src="images/icon-document.svg" alt="" aria-hidden="true" />
+              </button>
+            </li>
+            <li>
+              <button aria-label="Folder">
+                <img src="images/icon-folder.svg" alt="" aria-hidden="true" />
+              </button>
+            </li>
+            <li>
+              <button aria-label="Upload">
+                <img src="images/icon-upload.svg" alt="" aria-hidden="true" />
+              </button>
+            </li>
+          </ul>
+        </div>
+        <div class="storage">
+          <p class="title">You’ve used <span>815 GB</span> of your storage</p>
+          <div class="bar-outer">
+            <div class="bar-inner">
+              <div class="bar-dot"></div>
+            </div>
+          </div>
+          <div class="capacity">
+            <span>0 GB</span>
+            <span>1000 GB</span>
+          </div>
+          <div class="left-bubble">
+            <p>185</p>
+            <span>GB Left</span>
+          </div>
+        </div>
+      </div>
+    </main>
+  </body>
 </html>
