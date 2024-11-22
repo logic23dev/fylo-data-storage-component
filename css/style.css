@@ -55,13 +55,13 @@ body {
   align-items: center;
   background: var(--clr-very-dark-blue) url(../images/bg-mobile.png) no-repeat
     bottom;
+  background-size: cover;
 }
 
 .wrapper {
   display: flex;
   flex-direction: column;
   gap: 0.9375rem;
-  box-shadow: 0 0.625rem 1.625rem 0 hsla(229, 57%, 11%, 0.5);
 }
 
 .fylo {
@@ -69,6 +69,7 @@ body {
   padding: 2.5rem;
   width: 20rem;
   border-radius: 0.625rem 6.25rem 0.625rem 0.625rem;
+  box-shadow: 0 0.625rem 1.625rem 0 hsla(229, 57%, 11%, 0.5);
 }
 
 .buttons-list {
@@ -96,6 +97,7 @@ body {
   padding-bottom: 3.125rem;
   border-radius: 0.625rem;
   position: relative;
+  box-shadow: 0 0.625rem 1.625rem 0 hsla(229, 57%, 11%, 0.5);
 }
 
 .storage .title {
@@ -181,6 +183,7 @@ body {
   body {
     background: var(--clr-very-dark-blue) url(../images/bg-desktop.png)
       no-repeat bottom;
+    background-size: contain;
   }
 
   .wrapper {
